@@ -6,5 +6,5 @@ The Payum extension. It provides [Wallee](https://www.wallee.com) payment integr
 
 #### 1. Composer
 ```json
-    "wvision/payum-wallee": "^1.0"
+    "w-vision/payum-wallee": "^1.0"
 ```
