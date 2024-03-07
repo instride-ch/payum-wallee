@@ -1,6 +1,6 @@
-# Payum Wallee
-The Payum extension. It provides [Wallee](https://www.wallee.com) payment integration.
+![Payum Wallee](docs/images/github_banner.png)
 
+The Payum extension. It provides [Wallee](https://www.wallee.com) payment integration.
 
 ## Installation
 
