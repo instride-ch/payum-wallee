@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee\Request;
+namespace Instride\Payum\Wallee\Request;
 
 class GetHumanStatus extends \Payum\Core\Request\GetHumanStatus
 {

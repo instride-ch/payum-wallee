@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee;
+namespace Instride\Payum\Wallee;
 
 use Wallee\Sdk\Service\TransactionCompletionService;
 use Wallee\Sdk\Service\TransactionService;

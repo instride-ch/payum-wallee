@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee\Request;
+namespace Instride\Payum\Wallee\Request;
 
 use Payum\Core\Request\Generic;
 use Wallee\Sdk\Model\TransactionCreate;

@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee\Action;
+namespace Instride\Payum\Wallee\Action;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;

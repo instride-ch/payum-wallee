@@ -4,7 +4,6 @@ The Payum extension. It provides [Wallee](https://www.wallee.com) payment integr
 
 ## Installation
 
-#### 1. Composer
-```json
-    "w-vision/payum-wallee": "^1.0"
+```bash
+composer require instride/payum-wallee:^1.0
 ```

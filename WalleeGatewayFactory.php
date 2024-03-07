@@ -1,17 +1,17 @@
 <?php
 
-namespace WVision\Payum\Wallee;
+namespace Instride\Payum\Wallee;
 
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\GatewayFactory;
 use Wallee\Sdk\ApiClient;
 use Wallee\Sdk\Service\TransactionCompletionService;
 use Wallee\Sdk\Service\TransactionService;
-use WVision\Payum\Wallee\Action\CaptureOffSiteAction;
-use WVision\Payum\Wallee\Action\ConvertPaymentAction;
-use WVision\Payum\Wallee\Action\NotifyAction;
-use WVision\Payum\Wallee\Action\NotifyNullAction;
-use WVision\Payum\Wallee\Action\StatusAction;
+use Instride\Payum\Wallee\Action\CaptureOffSiteAction;
+use Instride\Payum\Wallee\Action\ConvertPaymentAction;
+use Instride\Payum\Wallee\Action\NotifyAction;
+use Instride\Payum\Wallee\Action\NotifyNullAction;
+use Instride\Payum\Wallee\Action\StatusAction;
 
 class WalleeGatewayFactory extends GatewayFactory
 {

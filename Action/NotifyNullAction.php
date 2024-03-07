@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee\Action;
+namespace Instride\Payum\Wallee\Action;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -14,7 +14,7 @@ use Payum\Core\Reply\HttpResponse;
 use Payum\Core\Request\GetHttpRequest;
 use Payum\Core\Request\GetToken;
 use Payum\Core\Request\Notify;
-use WVision\Payum\Wallee\ApiWrapper;
+use Instride\Payum\Wallee\ApiWrapper;
 
 /**
  * @property ApiWrapper $api

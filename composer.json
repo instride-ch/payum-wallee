@@ -1,5 +1,5 @@
 {
-  "name": "w-vision/payum-wallee",
+  "name": "instride/payum-wallee",
   "type": "library",
   "description": "Wallee Payum",
   "keywords": [
@@ -11,10 +11,10 @@
   "license": "GPL-3.0-or-later",
   "authors": [
     {
-      "name": "Dominik Pfaffenbauer",
-      "email": "dominik@pfaffenbauer.at",
-      "homepage": "https://www.pfaffenbauer.at/",
-      "role": "Developer"
+      "name": "instride AG",
+      "email": "connect@instride.ch",
+      "homepage": "https://instride.ch",
+      "role": "Digital Agency"
     }
   ],
   "require": {
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "WVision\\Payum\\Wallee\\": ""
+      "Instride\\Payum\\Wallee\\": ""
     }
   },
   "extra": {

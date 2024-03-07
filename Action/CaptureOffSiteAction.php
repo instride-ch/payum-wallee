@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee\Action;
+namespace Instride\Payum\Wallee\Action;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -16,9 +16,9 @@ use Payum\Core\Security\GenericTokenFactoryAwareTrait;
 use Wallee\Sdk\Model\LineItemCreate;
 use Wallee\Sdk\Model\LineItemType;
 use Wallee\Sdk\Model\TransactionCreate;
-use WVision\Payum\Wallee\ApiWrapper;
-use WVision\Payum\Wallee\Request\GetHumanStatus;
-use WVision\Payum\Wallee\Request\PrepareTransaction;
+use Instride\Payum\Wallee\ApiWrapper;
+use Instride\Payum\Wallee\Request\GetHumanStatus;
+use Instride\Payum\Wallee\Request\PrepareTransaction;
 
 /**
  * @property ApiWrapper $api

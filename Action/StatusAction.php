@@ -1,6 +1,6 @@
 <?php
 
-namespace WVision\Payum\Wallee\Action;
+namespace Instride\Payum\Wallee\Action;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -9,8 +9,8 @@ use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Request\GetStatusInterface;
 use Payum\Core\Exception\RequestNotSupportedException;
 use Wallee\Sdk\Model\TransactionState;
-use WVision\Payum\Wallee\ApiWrapper;
-use WVision\Payum\Wallee\Request\GetHumanStatus;
+use Instride\Payum\Wallee\ApiWrapper;
+use Instride\Payum\Wallee\Request\GetHumanStatus;
 
 /**
  * @property ApiWrapper $api
